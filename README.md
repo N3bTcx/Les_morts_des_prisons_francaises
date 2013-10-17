@@ -1,9 +1,11 @@
-# Les morts des prisons françaises (GeoJson version)
+# Les morts des prisons françaises
 
-##[The project online](http://prison.sharesand.info)
+##[http://prison.sharesand.info](http://prison.sharesand.info)
+
 
 ![Screenshot](Capture_MortsPrisons.jpg)
 
+### Infos
 
 This map use the data of :
 
