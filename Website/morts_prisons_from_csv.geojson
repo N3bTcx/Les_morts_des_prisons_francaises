@@ -1,0 +1,1579 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "27/03/2008 00:00:00",
+        "Prison": "Maison d'arrêt de Nanterre",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "P.A.",
+        "Age": "28",
+        "InfoSup": "",
+        "LabelName": "Nanterre",
+        "Source": "http://www.oip.org/index.php/component/k2/item/610-maison-darr%C3%AAt-de-nanterre-maintenu-au-quartier-disciplinaire-en-d%C3%A9pit-de-troubles-psychiatriques-importants-un-d%C3%A9tenu-sest-donn%C3%A9-la-mort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205149,
+          48.906423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "23/05/2008 13:50:00",
+        "Prison": "Centre pénitentiaire de Maubeuge",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "J.L.",
+        "Age": "28",
+        "InfoSup": "",
+        "LabelName": "Maubeuge",
+        "Source": "http://www.oip.org/index.php/component/k2/item/605-5/06/08-cp-maubeuge-suicide-quartier-disciplinaire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.002689,
+          50.288791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "17/10/2008 01:00:00",
+        "Prison": "Maison d'arrêt de Strasbourg",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Strasbourg",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.730252,
+          48.565958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/11/2008 00:00:00",
+        "Prison": "Maison centrale de Saint-Martin-de-Ré",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "M.S.",
+        "Age": "26",
+        "InfoSup": "",
+        "LabelName": "Saint-Martin-de-Ré",
+        "Source": "http://www.oip.org/index.php/component/k2/item/593-20/11/08-mc-st-martin-de-r%C3%A9-quartier-disciplinaire-suicide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.35866,
+          46.205379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "14/04/2011 00:00:00",
+        "Prison": "Centre pénitentiaire du Havre",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "23",
+        "InfoSup": "",
+        "LabelName": "Havre",
+        "Source": "http://www.leparisien.fr/rouen-76000/un-detenu-se-pend-avec-son-kit-anti-suicide-a-la-prison-du-havre-16-04-2011-1410602.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.205637,
+          49.516293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/08/2011 00:00:00",
+        "Prison": "Centre pénitentiaire de Ducos",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Pierre-Just Marny",
+        "Age": "68",
+        "InfoSup": "",
+        "LabelName": "Ducos",
+        "Source": "http://tempsreel.nouvelobs.com/societe/20110807.OBS8233/le-plus-vieux-detenu-de-france-retrouve-mort-dans-sa-cellule.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.974478,
+          14.575277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/10/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Nanterre",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Jamal Ghermaoui",
+        "Age": "23",
+        "InfoSup": "Décédé après 5 jours de mort cérébrale",
+        "LabelName": "Nanterre",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205149,
+          48.906423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "08/10/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Grenoble-Varces",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "51",
+        "InfoSup": "En détention provisoire, avec des tendances suicidaires connues de tous",
+        "LabelName": "Grenoble-Varces",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.686369,
+          45.099497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "11/10/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Mont-de-Marsan",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Fréderi Chantier",
+        "Age": "28",
+        "InfoSup": "En détention provisoire, avec des tendances suicidaires connues de tous",
+        "LabelName": "Mont-de-Marsan",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.50196,
+          43.893006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "24/10/2011 00:00:00",
+        "Prison": "Maison d’arrêt de Camp-Est",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "23",
+        "InfoSup": "Au quartier disciplinaire",
+        "LabelName": "Camp-Est",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.424245,
+          -22.271197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "27/10/2011 00:00:00",
+        "Prison": "Centre pénitentiaire de Remire-Montjoly",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Jean-Yves Edwige",
+        "Age": "41",
+        "InfoSup": "Incarcéré le mardi 25, il était signalé suicidaire",
+        "LabelName": "Remire-Montjoly",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.299333,
+          4.873523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/11/2011 00:00:00",
+        "Prison": "Maison d’arrêt de Coulaines",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "18",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Coulaines",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.218028,
+          48.044335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "08/11/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Lyon-Corbas",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "43",
+        "InfoSup": "Condamné le 21 octobre dernier à cinq ans de prison ferme",
+        "LabelName": "Lyon-Corbas",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.931334,
+          45.67959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "14/11/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "29",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Fresnes",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "21/11/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Yannick Noël",
+        "Age": "28",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Fresnes",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "30/11/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Lyon-Corbas",
+        "Sexe": "Femme",
+        "MortPar": "Asphyxie",
+        "Noms": "Jérémy M.",
+        "Age": "25",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Lyon-Corbas",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.931334,
+          45.67959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "01/12/2011 00:00:00",
+        "Prison": "Maison d'arrêt d'Angouleme",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Christiane Georgeon",
+        "Age": "53",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Angouleme",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.166532,
+          45.650367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "03/12/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Villeneuve-les-Maguelone",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "23",
+        "InfoSup": "En fin de peine",
+        "LabelName": "Villeneuve-les-Maguelone",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.826951,
+          43.546433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/12/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Lons-le-Saunier",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "61",
+        "InfoSup": "",
+        "LabelName": "Lons-le-Saunier",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.556656,
+          46.674132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "15/12/2011 00:00:00",
+        "Prison": "Maison d'arrêt d'Orléans",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "56",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Orléans",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.90869,
+          47.913832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "27/12/2011 00:00:00",
+        "Prison": "Prison des Baumettes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Janice Dauphinat",
+        "Age": "42",
+        "InfoSup": "Connue comme fragile, décédée, 24 heures après, à l’hopital",
+        "LabelName": "Baumettes",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.413102,
+          43.232916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "29/12/2011 00:00:00",
+        "Prison": "Maison d'arrêt de Fleury-Mérogis",
+        "Sexe": "Homme",
+        "MortPar": "Suffocation",
+        "Noms": "Gilles Crevel",
+        "Age": "44",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Fleury Merogis",
+        "Source": "http://www.millebabords.org/spip.php?article15787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.375264,
+          48.638013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "30/10/2012 04:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Marcellin Horneich",
+        "Age": "64",
+        "InfoSup": "",
+        "LabelName": "Fresnes",
+        "Source": "http://www.franceinter.fr/emission-dans-le-pretoire-de-la-guillotine-a-la-pendaison-l-histoire-de-marcellin-horneich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/01/2013 00:00:00",
+        "Prison": "Centre de détention de Joux-la-Ville",
+        "Sexe": "Femme",
+        "MortPar": "Immolation",
+        "Noms": "Inconnu",
+        "Age": "73",
+        "InfoSup": "Fin de peine programmée en 2019",
+        "LabelName": "Joux la Ville",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.811605,
+          47.618459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/01/2013 00:00:00",
+        "Prison": "Centre pénitentiaire de Maubeuge",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "41",
+        "InfoSup": "",
+        "LabelName": "Maubeuge",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.002689,
+          50.288791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "29/01/2013 00:00:00",
+        "Prison": "Centre de détention de Eysses",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "25",
+        "InfoSup": "Au quartier disciplinaire",
+        "LabelName": "Eysses",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.721126,
+          44.417712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/02/2013 09:00:00",
+        "Prison": "Maison d'arrêt de la Talaudière",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "49",
+        "InfoSup": "",
+        "LabelName": "Talaudière",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.415582,
+          45.472949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/02/2013 10:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Fresnes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "15/02/2013 00:00:00",
+        "Prison": "Prison des Baumettes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Baumettes",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.413102,
+          43.232916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/03/2013 15:00:00",
+        "Prison": "Maison d'arrêt de Seysses",
+        "Sexe": "Femme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "40",
+        "InfoSup": "",
+        "LabelName": "Seysses",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.322799,
+          43.48475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "22/03/2013 00:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "25",
+        "InfoSup": "Au lendemain de son transfert de la M.A. de Lorient",
+        "LabelName": "Nantes-Carquefou",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "26/03/2013 00:00:00",
+        "Prison": "Centre pénitentiaire Avignon - Le Pontet",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Avignon - Le Pontet",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.862425,
+          43.968959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "26/03/2013 00:00:00",
+        "Prison": "Centre de détention de Montmédy",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Montmédy",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.369007,
+          49.524554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "29/03/2013 00:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "44",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Nantes-Carquefou",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "30/03/2013 08:00:00",
+        "Prison": "Maison d'arrêt de Lyon-Corbas",
+        "Sexe": "Femme",
+        "MortPar": "Asphyxie",
+        "Noms": "Inconnu",
+        "Age": "58",
+        "InfoSup": "",
+        "LabelName": "Lyon-Corbas",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.931334,
+          45.67959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "02/04/2013 00:00:00",
+        "Prison": "Maison d'arrêt de la Talaudière",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "49",
+        "InfoSup": "Purgeant une peine de cinq mois de prison",
+        "LabelName": "Talaudière",
+        "Source": "http://prison.eu.org/spip.php?article14393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.415582,
+          45.472949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/04/2013 23:00:00",
+        "Prison": "Maison d'arrêt de Mont-de-Marsan",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "33",
+        "InfoSup": "",
+        "LabelName": "Mont-de-Marsan",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.50196,
+          43.893006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "09/04/2013 00:00:00",
+        "Prison": "Centre de détention de Joux-la-Ville",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Joux la Ville",
+        "Source": "http://prison.eu.org/spip.php?article14393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.811605,
+          47.618459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "11/04/2013 00:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "23",
+        "InfoSup": "Réincarcéré pour non respect de son régime de semi-liberté",
+        "LabelName": "Nantes-Carquefou",
+        "Source": "http://prison.eu.org/spip.php?article14393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "19/04/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "20",
+        "InfoSup": "",
+        "LabelName": "Fresnes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "20/04/2013 04:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "20",
+        "InfoSup": "",
+        "LabelName": "Fresnes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/05/2013 00:00:00",
+        "Prison": "Prison des Baumettes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Marc Armando",
+        "Age": "56",
+        "InfoSup": "En détention provisoire et remis aux autorités françaises la veille",
+        "LabelName": "Baumettes",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.413102,
+          43.232916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "12/05/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Bar-Le-Duc",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "61",
+        "InfoSup": "",
+        "LabelName": "Bar Le Duc",
+        "Source": "http://www.leparisien.fr/strasbourg-67000/meuse-l-auteur-presume-d-un-double-meurtre-se-suicide-en-prison-12-05-2013-2796421.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.159365,
+          48.768707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "14/05/2013 20:00:00",
+        "Prison": "Maison d’arrêt de Mulhouse",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "54",
+        "InfoSup": "",
+        "LabelName": "Mulhouse",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.344464,
+          47.753319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "19/05/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Inconnu",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Fresnes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "20/05/2013 16:00:00",
+        "Prison": "Prison de la santé de Paris",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "49",
+        "InfoSup": "",
+        "LabelName": "Santé Paris",
+        "Source": "http://www.leparisien.fr/espace-premium/actu/faits-divers-express-21-05-2013-2820489.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.351732,
+          48.824384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "21/05/2013 16:00:00",
+        "Prison": "Centre pénitentiaire de Poitiers-Vivonne",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Poitiers-Vivonne",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.241054,
+          46.41329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "08/06/2013 16:13:00",
+        "Prison": "Maison d'arrêt de Bois d'Arcy",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "29",
+        "InfoSup": "",
+        "LabelName": "Bois d'Arcy",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.030686,
+          48.806171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "13/06/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Bar-Le-Duc",
+        "Sexe": "Homme",
+        "MortPar": "Noël Rondeau",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Bar Le Duc",
+        "Source": "http://www.estrepublicain.fr/actualite/2013/05/13/suicide-a-la-prison-de-bar-le-duc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.159365,
+          48.768707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "14/06/2013 00:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "28",
+        "InfoSup": "",
+        "LabelName": "Nantes-Carquefou",
+        "Source": "http://www.leparisien.fr/nantes-44000/quatrieme-suicide-d-un-detenu-dans-la-nouvelle-prison-de-nantes-15-06-2013-2899549.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "16/06/2013 16:00:00",
+        "Prison": "Maison d'arrêt de Nevers",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "37",
+        "InfoSup": "",
+        "LabelName": "Nevers",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.156443,
+          46.992512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "24/06/2013 07:00:00",
+        "Prison": "Maison d'arrêt de Bois d'Arcy",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Bois d'Arcy",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.030686,
+          48.806171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/07/2013 00:00:00",
+        "Prison": "Maison d’arrêt de Coulaines",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Coulaines",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.218028,
+          48.044335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/07/2013 04:00:00",
+        "Prison": "Prison des Baumettes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "46",
+        "InfoSup": "Connu pour avoir des problèmes psychologiques",
+        "LabelName": "Baumettes",
+        "Source": "http://www.leparisien.fr/marseille-13000/marseille-un-detenu-se-suicide-a-la-prison-des-baumettes-08-07-2013-2965293.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.413102,
+          43.232916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "18/07/2013 07:00:00",
+        "Prison": "Maison d'arrêt de Bordiot",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "69",
+        "InfoSup": "",
+        "LabelName": "Bordiot",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.39889,
+          47.09528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "29/07/2013 20:00:00",
+        "Prison": "Centre Pénitentiaire de Nancy-Maxéville",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "87",
+        "InfoSup": "",
+        "LabelName": "Nancy-Maxéville",
+        "Source": "http://www.leparisien.fr/faits-divers/lorraine-un-detenu-de-87-ans-se-suicide-31-07-2013-3020879.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.151742,
+          48.706224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "06/08/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Bois d'Arcy",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "29",
+        "InfoSup": "",
+        "LabelName": "Bois d'Arcy",
+        "Source": "http://www.leparisien.fr/espace-premium/yvelines-78/un-detenu-s-est-pendu-dans-sa-cellule-07-08-2013-3034765.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.030686,
+          48.806171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "14/08/2013 04:00:00",
+        "Prison": "Maison d'arrêt de Nice",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Olivier Ruiz",
+        "Age": "41",
+        "InfoSup": "",
+        "LabelName": "Nice",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.280155,
+          43.711905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "23/08/2013 16:00:00",
+        "Prison": "Centre de détention de Tarascon",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "50",
+        "InfoSup": "",
+        "LabelName": "Tarascon",
+        "Source": "http://www.leparisien.fr/marseille-13000/bouches-du-rhone-un-quinquagenaire-detenu-a-tarascon-se-suicide-24-08-2013-3076769.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.657129,
+          43.791737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "03/09/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Fleury-Mérogis",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Wojciech S.",
+        "Age": "31",
+        "InfoSup": "",
+        "LabelName": "Fleury Merogis",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.375264,
+          48.638013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/09/2013 00:00:00",
+        "Prison": "Centre de détention de Joux-la-Ville",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Joux la Ville",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.811605,
+          47.618459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "05/09/2013 10:00:00",
+        "Prison": "Prison des femmes de Rennes",
+        "Sexe": "Femme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Rennes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.674238,
+          48.100768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "13/09/2013 00:00:00",
+        "Prison": "Centre pénitentiaire de Saint-Quentin-Fallavier",
+        "Sexe": "Homme",
+        "MortPar": "Non communiqué",
+        "Noms": "Inconnu",
+        "Age": "36",
+        "InfoSup": "",
+        "LabelName": "Saint Quentin",
+        "Source": "http://www.leparisien.fr/grenoble-38000/un-detenu-se-suicide-a-la-prison-de-saint-quentin-fallavier-isere-13-09-2013-3134369.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.122877,
+          45.628445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "15/09/2013 00:00:00",
+        "Prison": "Maison d'arrêt de Béthune",
+        "Sexe": "Homme",
+        "MortPar": "Sucide par lame de rasoir",
+        "Noms": "Inconnu",
+        "Age": "49",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Béthune",
+        "Source": "http://prison.eu.org/spip.php?rubrique69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.637313,
+          50.536651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "18/09/2013 07:00:00",
+        "Prison": "Maison d'arrêt de Fresnes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "29",
+        "InfoSup": "En détention provisoire",
+        "LabelName": "Fresnes",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319626,
+          48.763431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "20/09/2013 05:00:00",
+        "Prison": "Maison d'arrêt de Fleury-Mérogis",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Fleury Merogis",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.375264,
+          48.638013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "23/09/2013 00:00:00",
+        "Prison": "Maison d’arrêt de Mulhouse",
+        "Sexe": "Femme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "",
+        "InfoSup": "",
+        "LabelName": "Mulhouse",
+        "Source": "http://www.leparisien.fr/strasbourg-67000/une-detenue-se-suicide-par-pendaison-a-mulhouse-23-09-2013-3162775.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.344464,
+          47.753319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "24/09/2013 23:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "41",
+        "InfoSup": "",
+        "LabelName": "Nantes-Carquefou",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "25/09/2013 00:00:00",
+        "Prison": "Maison d'arrêt Nantes-Carquefou",
+        "Sexe": "homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "41",
+        "InfoSup": "",
+        "LabelName": "Nantes-Carquefou",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1,
+          47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "28/09/2013 16:00:00",
+        "Prison": "Maison d'arrêt de Châlons-en-Champagne",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Abdelkader Zenguel",
+        "Age": "34",
+        "InfoSup": "Une dizaine de jours après sa condamnation à 30 ans de réclusion criminelle",
+        "LabelName": "Chalons",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.367684,
+          48.962638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "27/09/2013 17:00:00",
+        "Prison": "Centre pénitentiaire de Maubeuge",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "40",
+        "InfoSup": "",
+        "LabelName": "Maubeuge",
+        "Source": "http://www.bfmtv.com/societe/suicide-dun-detenu-a-prison-maubeuge-612580.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.002689,
+          50.288791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "04/10/2013 00:00:00",
+        "Prison": "Prison Metz Queuleu",
+        "Sexe": "Homme",
+        "MortPar": "Malaise",
+        "Noms": "Inconnu",
+        "Age": "57",
+        "InfoSup": "",
+        "LabelName": "Queuleu",
+        "Source": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.209289,
+          49.099583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "06/10/2013 19:00:00",
+        "Prison": "Maison d'arrêt de Luynes",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Marcel Asther",
+        "Age": "56",
+        "InfoSup": "",
+        "LabelName": "Luynes",
+        "Source": "http://www.rtl.fr/actualites/info/article/prison-suicide-d-un-chercheur-incarcere-pour-le-meurtre-de-sa-femme-7765203656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.398489,
+          43.481418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "07/10/2013 00:00:00",
+        "Prison": "Maison d'arrêt d'Amiens",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "32",
+        "InfoSup": "Au quartier disciplinaire",
+        "LabelName": "Amiens",
+        "Source": "http://prison.eu.org/spip.php?article14520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.323396,
+          49.908786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DateTime": "09/10/2013 07:00:00",
+        "Prison": "Maison d'arrêt de Lyon-Corbas",
+        "Sexe": "Homme",
+        "MortPar": "Pendaison",
+        "Noms": "Inconnu",
+        "Age": "25",
+        "InfoSup": "",
+        "LabelName": "Lyon-Corbas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.931334,
+          45.67959
+        ]
+      }
+    }
+  ]
+}

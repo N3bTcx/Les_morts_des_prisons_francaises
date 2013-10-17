@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Les morts des prisons françaises</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <link href='http://prisons.sharesand.info/mapbox.css' rel='stylesheet' />
+  <link href='http://prisons.sharesand.info/base.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #map-ui {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+    }
+
+    #map-ui ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #map-ui a {
+        font-size: 13px;
+        background: #FFF;
+        color: #3C4E5A;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #BBB;
+        border-bottom-width: 0;
+        min-width: 138px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    #map-ui a:hover {
+        background: #ECF5FA;
+    }
+
+    #map-ui li:last-child a {
+        border-bottom-width: 1px;
+        -webkit-border-radius: 0 0 3px 3px;
+        border-radius: 0 0 3px 3px;
+    }
+
+    #map-ui li:first-child a {
+        -webkit-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    #map-ui a.active {
+        background: #3887BE;
+        border-color: #3887BE;
+        color: #FFF;
+    }
+  </style>
+</head>
+<body>
+<style>
+  #map { position:absolute; top:0; bottom:0; right:300px; left:0; }
+  #info {
+      position:absolute; top: 0; left: 0;
+      bottom: 0; width: 290px; background:#333; color: #fff;
+      padding:20px;
+      overflow : auto;
+  }
+  #info li{ margin-bottom: 1rem; } 
+  h1 { margin-top:0; }
+</style>
+<div id='map-ui'>
+    <ul>
+        <li><a href='#' onclick="applyFilter(this);" name='2008'>2008</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name='2009'>2009</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name='2010'>2010</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name='2011'>2011</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name='2012'>2012</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name='2013'>2013</a></li>
+        <li><a href='#' onclick="applyFilter(this);" name="all" class="active">Toutes les années</a></li>
+    </ul>
+</div>
+<div id='map'></div>
+<div id='info'></div>
+
+<script type='text/javascript'>
+
+// Config mapbox
+// =============
+
+//n3b.Morts_prison for better background
+var map = L.mapbox.map('map', 'n3b.map-xb4fp4td', { zoomControl: false })
+  .setView([47.145894, -2.10044], 5);
+
+// Zoom position
+new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
+
+var markerLayer = L.mapbox.markerLayer()
+  //.loadURL('mortsPrisons.geojson')
+  .loadURL('http://prisons.sharesand.info/morts_prisons_from_csv.geojson')
+  .addTo(map);
+
+// Listen for individual marker clicks. Date format will be changed.
+markerLayer.on('click', showMarkerInfos );
+
+// Clear the tooltip when map is clicked
+map.on('click', showDefaultInfo );
+markerLayer.on('ready', showDefaultInfo);
+
+//Marker setup icon at lauching
+markerLayer.on('ready', function(){ 
+    markerLayer.eachLayer(function(marker){
+        marker.setIcon(new L.Icon({
+            iconUrl:'http://prisons.sharesand.info/marker-12@2x.png',
+            iconSize: [16, 16]
+        }));
+    });
+});
+
+
+
+// Year filtering
+// ================
+
+var year = "all"; // year-filter
+
+function applyFilter(filter) {
+  year = filter.name;
+  
+  // we delete the active class of the old filter and we put the new one
+  document.querySelector('#map-ui a.active').classList.remove('active');
+  filter.classList.add('active');
+  
+  // If the year is "All" all markers are show, otherwire they are show if the attribut DateTime include the year
+  markerLayer.setFilter(function(f) {
+    if (year == "all") return true;
+    return (f.properties['DateTime'].indexOf(year) != -1);
+    
+  });
+  
+  // Update info
+  showDefaultInfo();
+  setCustomIcons();
+};
+
+//Change markers icons
+function setCustomIcons(){
+  markerLayer.eachLayer(function(marker){
+    marker.setIcon(new L.Icon({
+      iconUrl:'http://prisons.sharesand.info/marker-12@2x.png',
+      iconSize: [16, 16]
+    }));
+  });
+}
+
+function getFeaturesByLabelName(label){
+  var features = [];
+  
+  // For every feature if the label is the same and if the year-filter is "all" or his "year" is the curent "year-filter" we add it
+  for( var i = 0; i < markerLayer._geojson.features.length; i++){
+    var feature = markerLayer._geojson.features[i];
+    if( feature.properties.LabelName == label && ( year == "all" || (feature.properties['DateTime'].indexOf(year) != -1) ))
+      features.push( feature );
+  }
+  
+  // we return founded value
+  return features;
+}
+
+function getFeaturesByYear(){
+  var features = [];
+  
+  for( var i = 0; i < markerLayer._geojson.features.length; i++){
+    var feature = markerLayer._geojson.features[i];
+    if( year == "all" || (feature.properties['DateTime'].indexOf( year ) !== -1) )
+      features.push( feature );
+  }
+  
+  // we return founded value
+  return features;
+}
+
+function showDefaultInfo(){
+  var features = getFeaturesByYear();
+  var entete = '<h2>'+ features.length + ' mort·e·s dans les prisons françaises' + (( year == 'all') ? '' : ' en '+year) +'</h2>';
+  document.getElementById('info').innerHTML = entete;
+}
+
+function showMarkerInfos(e){
+  var feature = e.layer.feature;
+  var features = getFeaturesByLabelName( e.layer.feature.properties.LabelName );
+
+  var entete = '<h2>'+feature.properties.Prison + (( year == 'all') ? '' : ' en '+year) +'</h2>'
+    + features.length+' mort·e·s <hr/>';
+
+  var liste = '<ul>';
+  for ( var i = 0; i < features.length; i++ ){
+    var f = features[i];
+    liste += ''+
+    '<li>' +
+      'Nom : ' + f.properties.Noms + '<br>' +
+      'Mort(e) le : ' + f.properties.DateTime + '<br>' +
+      'Age : ' + f.properties.Age + '<br>' +
+      'Sexe : ' + f.properties.Sexe + '<br>' + 
+      'Mort(e) par: ' + f.properties.MortPar +
+    '</li>';
+  }
+  liste += '</ul>';
+  
+  document.getElementById('info').innerHTML = entete + liste;
+}
+
+</script>
+
+</body>
+</html>
+
