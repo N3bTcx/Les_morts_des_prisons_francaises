@@ -1,6 +1,9 @@
 # Les morts des prisons françaises (GeoJson version)
 
-[The project online](http://prison.sharesand.info)
+##[The project online](http://prison.sharesand.info)
+
+![Screenshot](Capture_MortsPrisons.jpg)
+
 
 This map use the data of :
 
@@ -10,7 +13,7 @@ This map use the data of :
 
 All the data go into a [google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Aqv-ZGeNYxijdHFzVFVYZWJmNVhzZG9kQkxEdTB3T0E&usp=sharing) and be converted to geojson with the script below.
 
-## Script
+### Script
 
 [The script (csv2geojson_from_google.sh)](csv2geojson_from_google.sh)download [the csv from google](https://docs.google.com/spreadsheet/ccc?key=0Aqv-ZGeNYxijdHFzVFVYZWJmNVhzZG9kQkxEdTB3T0E&usp=sharing) with curl, convert it with [csv2geojson](https://github.com/mapbox/csv2geojson) and can send it to an FTP with curl. This is a beta version.
 
